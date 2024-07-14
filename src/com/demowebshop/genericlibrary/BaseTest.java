@@ -47,7 +47,7 @@ public class BaseTest
 		Assert.assertEquals(driver.getTitle(), PageTitles.HOME_PAGE, "Home Page is not Displayed");
 		Reporter.log("Home Page is Displayed", true );
 	}
-//	@BeforeMethod(alwaysRun = true)
+	@BeforeMethod(alwaysRun = true)
 	public void login() throws FileNotFoundException, IOException 
 	{
 		String email = dataUtility.getDataFromProperties("email");

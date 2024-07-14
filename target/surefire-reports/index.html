@@ -7,7 +7,7 @@
 
     <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
     <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
-    <script type="text/javascript" src="jquery.min.js"></script>
+    <script type="text/javascript" src="jquery-3.6.0.min.js"></script>
     <script type="text/javascript" src="testng-reports.js"></script>
     <script type="text/javascript" src="https://www.google.com/jsapi"></script>
     <script type='text/javascript'>
@@ -21,8 +21,7 @@
      -->
   </head>
 
-  <body>
-    <div class="top-banner-root">
+  <body>    <div class="top-banner-root">
       <span class="top-banner-title-font">Test results</span>
       <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
       <br/>
@@ -143,8 +142,8 @@
             <pre>
 &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
 &lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
-&lt;suite name=&quot;Suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
-  &lt;test thread-count=&quot;5&quot; name=&quot;Test&quot;&gt;
+&lt;suite name=&quot;Suite&quot; guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Test&quot; verbose=&quot;0&quot;&gt;
     &lt;classes&gt;
       &lt;class name=&quot;com.demowebshop.testscripts.TC003_VerifyUserIsAbleToAddProductToWishlist&quot;/&gt;
     &lt;/classes&gt;
@@ -198,7 +197,7 @@ data.addRows(1);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'addToWishList')
 data.setCell(0, 2, 'com.demowebshop.testscripts.TC003_VerifyUserIsAbleToAddProductToWishlist')
-data.setCell(0, 3, 23498);
+data.setCell(0, 3, 23720);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
@@ -236,19 +235,19 @@ return data;
               </div> <!-- configuration-class before -->
               <div class="configuration-method before">
                 <span class="method-name">login</span>
-                <span class="method-start">4257 ms</span>
+                <span class="method-start">5010 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">addToWishList</span>
-                <span class="method-start">5675 ms</span>
+                <span class="method-start">6388 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">logout</span>
-                <span class="method-start">29190 ms</span>
+                <span class="method-start">30110 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-class after">
                 <span class="method-name">closeBrowser</span>
-                <span class="method-start">30611 ms</span>
+                <span class="method-start">31848 ms</span>
               </div> <!-- configuration-class after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
