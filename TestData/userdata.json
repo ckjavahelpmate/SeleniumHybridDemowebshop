@@ -1,0 +1,36 @@
+{
+	"TC1": [
+		{
+			"username": "user1",
+			"password": "pass1",
+			"fullName": "John Doe",
+			"email": "john@example.com",
+			"language": {
+				"en": "ab",
+				"xn": "yz"
+			},
+			"notifications": true
+		},
+		{
+			"username": "user1",
+			"password": "pass1",
+			"fullName": "SMith Doe",
+			"email": "john@example.com",
+			"language": {
+				"en": "ab",
+				"xn": "yz"
+			},
+			"notifications": true
+		}
+	],
+	"TC2": [
+		{
+			"username": "user2",
+			"password": "pass2",
+			"fullName": "Jane Smith",
+			"email": "jane@example.com",
+			"language": "fr",
+			"notifications": false
+		}
+	]
+}

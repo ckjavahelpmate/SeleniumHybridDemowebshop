@@ -3,14 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.demowebshop.testscripts.TC001_VerifyUserIsAbleToRegister">
+      <class name="com.demowebshop.testscripts.Demo">
         <methods>
-          <include name="registerTestCase" invocation-numbers="0"/>
-          <include name="launchBrowser"/>
-          <include name="logout"/>
-          <include name="closeBrowser"/>
+          <include name="name"/>
         </methods>
-      </class> <!-- com.demowebshop.testscripts.TC001_VerifyUserIsAbleToRegister -->
+      </class> <!-- com.demowebshop.testscripts.Demo -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

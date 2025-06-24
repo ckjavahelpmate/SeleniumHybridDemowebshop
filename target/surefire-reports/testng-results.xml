@@ -11,15 +11,15 @@
       <![CDATA[Home Page is Displayed]]>
     </line>
   </reporter-output>
-  <suite started-at="2024-07-14T17:44:59 IST" name="Suite" finished-at="2024-07-14T17:45:31 IST" duration-ms="32066">
+  <suite started-at="2024-07-14T21:59:22 IST" name="Suite" finished-at="2024-07-14T21:59:45 IST" duration-ms="23349">
     <groups>
       <group name="System">
         <method signature="TC003_VerifyUserIsAbleToAddProductToWishlist.addToWishList()[pri:0, instance:com.demowebshop.testscripts.TC003_VerifyUserIsAbleToAddProductToWishlist@3427b02d]" name="addToWishList" class="com.demowebshop.testscripts.TC003_VerifyUserIsAbleToAddProductToWishlist"/>
       </group> <!-- System -->
     </groups>
-    <test started-at="2024-07-14T17:44:59 IST" name="Test" finished-at="2024-07-14T17:45:31 IST" duration-ms="32066">
+    <test started-at="2024-07-14T21:59:22 IST" name="Test" finished-at="2024-07-14T21:59:45 IST" duration-ms="23349">
       <class name="com.demowebshop.testscripts.TC003_VerifyUserIsAbleToAddProductToWishlist">
-        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:com.demowebshop.testscripts.TC003_VerifyUserIsAbleToAddProductToWishlist@3427b02d]" started-at="2024-07-14T17:44:59 IST" name="launchBrowser" finished-at="2024-07-14T17:45:04 IST" duration-ms="4998" status="PASS">
+        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:com.demowebshop.testscripts.TC003_VerifyUserIsAbleToAddProductToWishlist@3427b02d]" started-at="2024-07-14T21:59:22 IST" name="launchBrowser" finished-at="2024-07-14T21:59:27 IST" duration-ms="4703" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -33,7 +33,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- launchBrowser -->
-        <test-method is-config="true" signature="login()[pri:0, instance:com.demowebshop.testscripts.TC003_VerifyUserIsAbleToAddProductToWishlist@3427b02d]" started-at="2024-07-14T17:45:04 IST" name="login" finished-at="2024-07-14T17:45:06 IST" duration-ms="1377" status="PASS">
+        <test-method is-config="true" signature="login()[pri:0, instance:com.demowebshop.testscripts.TC003_VerifyUserIsAbleToAddProductToWishlist@3427b02d]" started-at="2024-07-14T21:59:27 IST" name="login" finished-at="2024-07-14T21:59:28 IST" duration-ms="1460" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Login page is displayed]]>
@@ -43,15 +43,94 @@
             </line>
           </reporter-output>
         </test-method> <!-- login -->
-        <test-method signature="addToWishList()[pri:0, instance:com.demowebshop.testscripts.TC003_VerifyUserIsAbleToAddProductToWishlist@3427b02d]" started-at="2024-07-14T17:45:06 IST" name="addToWishList" finished-at="2024-07-14T17:45:29 IST" duration-ms="23720" status="PASS">
+        <test-method signature="addToWishList()[pri:0, instance:com.demowebshop.testscripts.TC003_VerifyUserIsAbleToAddProductToWishlist@3427b02d]" started-at="2024-07-14T21:59:28 IST" name="addToWishList" finished-at="2024-07-14T21:59:45 IST" duration-ms="16952" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addToWishList -->
-        <test-method is-config="true" signature="logout()[pri:0, instance:com.demowebshop.testscripts.TC003_VerifyUserIsAbleToAddProductToWishlist@3427b02d]" started-at="2024-07-14T17:45:29 IST" name="logout" finished-at="2024-07-14T17:45:31 IST" duration-ms="1734" status="PASS">
+        <test-method is-config="true" signature="logout()[pri:0, instance:com.demowebshop.testscripts.TC003_VerifyUserIsAbleToAddProductToWishlist@3427b02d]" started-at="2024-07-14T21:59:45 IST" name="logout" finished-at="2024-07-14T21:59:45 IST" duration-ms="24" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchWindowException">
+            <message>
+              <![CDATA[no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=126.0.6478.127)
+Build info: version: '4.16.1', revision: '9b4c83354e'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [ce561abc430507472bb1964559aacd28, findElement {using=xpath, value=//a[ text() = 'Log out']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 126.0.6478.127, chrome: {chromedriverVersion: 126.0.6478.126 (d36ace6122e..., userDataDir: C:\Users\QJSPID~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60314}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60314/devtoo..., se:cdpVersion: 126.0.6478.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: ce561abc430507472bb1964559aacd28]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=126.0.6478.127)
+Build info: version: '4.16.1', revision: '9b4c83354e'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [ce561abc430507472bb1964559aacd28, findElement {using=xpath, value=//a[ text() = 'Log out']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 126.0.6478.127, chrome: {chromedriverVersion: 126.0.6478.126 (d36ace6122e..., userDataDir: C:\Users\QJSPID~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60314}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60314/devtoo..., se:cdpVersion: 126.0.6478.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: ce561abc430507472bb1964559aacd28
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:200)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:523)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:360)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:354)
+at com.demowebshop.genericlibrary.BaseTest.logout(BaseTest.java:66)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:390)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:325)
+at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:810)
+at org.testng.internal.invokers.TestInvoker.runAfterConfigurations(TestInvoker.java:779)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:755)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchWindowException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logout -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.demowebshop.testscripts.TC003_VerifyUserIsAbleToAddProductToWishlist@3427b02d]" started-at="2024-07-14T17:45:31 IST" name="closeBrowser" finished-at="2024-07-14T17:45:31 IST" duration-ms="189" status="PASS">
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.demowebshop.testscripts.TC003_VerifyUserIsAbleToAddProductToWishlist@3427b02d]" started-at="2024-07-14T21:59:45 IST" name="closeBrowser" finished-at="2024-07-14T21:59:45 IST" duration-ms="140" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->

@@ -1,20 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite name="Suite" parallel="tests" >
-  <test  name="ChromeTest" thread-count="5" parallel="methods">
-  <parameter name="Browser" value="Chrome" />
-    <classes>
-      <class name="com.demowebshop.testscripts.TC004_VerifyUserIsAbleToPalceOrder"/>
-      <class name="com.demowebshop.testscripts.TC003_VerifyUserIsAbleToAddProductToWishlist"/>
-      <class name="com.demowebshop.testscripts.TC002_VerifyUserIsAbleToAddProductsToCartAndRemove"/>
-    </classes>
-  </test> <!-- Test -->
-  <test name="EdgeTest" thread-count="5" parallel="methods">
-  <parameter name="Browser" value="Edge" />
-    <classes>
-      <class name="com.demowebshop.testscripts.TC004_VerifyUserIsAbleToPalceOrder"/>
-      <class name="com.demowebshop.testscripts.TC003_VerifyUserIsAbleToAddProductToWishlist"/>
-      <class name="com.demowebshop.testscripts.TC002_VerifyUserIsAbleToAddProductsToCartAndRemove"/>
-    </classes>
-  </test> <!-- Test -->
-</suite> <!-- Suite -->
+<suite name="Suite" parallel="tests">
+	<test name="ChromeTest" thread-count="5" parallel="methods">
+		<parameter name="Browser" value="Chrome" />
+		<classes>
+			<class
+				name="com.demowebshop.testscripts.TC004_VerifyUserIsAbleToPalceOrder" />
+			<class
+				name="com.demowebshop.testscripts.TC003_VerifyUserIsAbleToAddProductToWishlist" />
+			<class
+				name="com.demowebshop.testscripts.TC002_VerifyUserIsAbleToAddProductsToCartAndRemove" />
+		</classes>
+	</test> <!--
+	Test -->
+	<test name="EdgeTest" thread-count="5" parallel="methods">
+		<parameter name="Browser" value="Edge" />
+		<classes>
+			<class
+				name="com.demowebshop.testscripts.TC004_VerifyUserIsAbleToPalceOrder" />
+			<class
+				name="com.demowebshop.testscripts.TC003_VerifyUserIsAbleToAddProductToWishlist" />
+			<class
+				name="com.demowebshop.testscripts.TC002_VerifyUserIsAbleToAddProductsToCartAndRemove" />
+		</classes>
+	</test> <!--
+	Test -->
+</suite> <!--
+Suite -->

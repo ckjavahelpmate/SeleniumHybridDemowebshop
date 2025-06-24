@@ -4,8 +4,8 @@
 	<test thread-count="5" name="Test">
 		<groups>
 			<run>
-				<include name="System"/>
-				<exclude name="Integration"/>
+				<include name="System" />
+				<exclude name="Integration" />
 			</run>
 		</groups>
 		<classes>
@@ -18,5 +18,7 @@
 			<class
 				name="com.demowebshop.testscripts.TC002_VerifyUserIsAbleToAddProductsToCartAndRemove" />
 		</classes>
-	</test> <!-- Test -->
-</suite> <!-- Suite -->
+	</test> <!--
+	Test -->
+</suite> <!--
+Suite -->

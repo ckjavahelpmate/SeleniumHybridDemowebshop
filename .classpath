@@ -19,6 +19,5 @@
 			<attribute name="optional" value="true"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry excluding="main/java/|main/resources/" kind="src" path="src"/>
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>
